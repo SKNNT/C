@@ -20,7 +20,7 @@ int main()
 
     for(int k = 0; k < n; k++)
     {
-        printf("%i\n",*(array+k));
+        printf("%i:%i\n",k,*(array+k));
     }
     return 0;
 }
